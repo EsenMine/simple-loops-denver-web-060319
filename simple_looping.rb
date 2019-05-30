@@ -3,9 +3,9 @@
 def loop_iterator(number_of_times)
   counter = 0
   loop do
+    counter += 1
     puts "Welcome to Flatiron School's Web Development Course!"
     break if counter == number_of_times
-    counter += 1
   end
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
